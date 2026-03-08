@@ -10,9 +10,7 @@ YOJANASETU is an AI-powered conversational assistant that bridges the gap betwee
 
 ## Demo
 
-- **Frontend:** http://localhost:5173
-- **Backend API:** http://localhost:5000/api/health
-- **API Docs:** http://localhost:5000/docs
+RUN THIS FOR DEMO: https://staging.d2z2byuwldkjxp.amplifyapp.com/)
 
 ## Quick Start
 
