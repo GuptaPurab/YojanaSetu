@@ -1,0 +1,998 @@
+[
+  {
+    "scheme_id": "pm-kisan",
+    "name": "PM-KISAN Samman Nidhi",
+    "name_hi": "पीएम-किसान सम्मान निधि",
+    "category": "agriculture",
+    "description": "Provides income support of Rs 6,000 per year to all landholding farmer families across the country in three equal installments of Rs 2,000 each, every four months.",
+    "description_hi": "देश भर में सभी भूमिधारक किसान परिवारों को हर चार महीने में ₹2,000 की तीन समान किस्तों में प्रति वर्ष ₹6,000 की आय सहायता प्रदान करती है।",
+    "eligibility": [
+      "All landholding farmer families",
+      "Must have cultivable land",
+      "Family includes husband, wife, and minor children",
+      "Not applicable to institutional landholders"
+    ],
+    "eligibility_hi": [
+      "सभी भूमिधारक किसान परिवार",
+      "खेती योग्य भूमि होनी चाहिए",
+      "परिवार में पति, पत्नी और नाबालिग बच्चे शामिल",
+      "संस्थागत भूमिधारकों पर लागू नहीं"
+    ],
+    "documents_required": [
+      "Aadhaar card",
+      "Land ownership documents",
+      "Bank account details",
+      "Mobile number linked to Aadhaar"
+    ],
+    "documents_required_hi": [
+      "आधार कार्ड",
+      "भूमि स्वामित्व दस्तावेज",
+      "बैंक खाता विवरण",
+      "आधार से जुड़ा मोबाइल नंबर"
+    ],
+    "application_steps": [
+      "Visit pmkisan.gov.in",
+      "Click on 'New Farmer Registration'",
+      "Enter Aadhaar number and captcha",
+      "Fill in personal and land details",
+      "Submit and note the registration number"
+    ],
+    "application_steps_hi": [
+      "pmkisan.gov.in पर जाएं",
+      "'नया किसान पंजीकरण' पर क्लिक करें",
+      "आधार नंबर और कैप्चा दर्ज करें",
+      "व्यक्तिगत और भूमि विवरण भरें",
+      "सबमिट करें और पंजीकरण संख्या नोट करें"
+    ],
+    "benefit_amount": "₹6,000 per year (3 installments of ₹2,000)",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "website": "https://pmkisan.gov.in",
+    "keywords": ["farmer", "kisan", "agriculture", "income", "land", "किसान", "खेती", "आय"]
+  },
+  {
+    "scheme_id": "ayushman-bharat",
+    "name": "Ayushman Bharat - PM Jan Arogya Yojana (PMJAY)",
+    "name_hi": "आयुष्मान भारत - पीएम जन आरोग्य योजना",
+    "category": "health",
+    "description": "Provides health insurance coverage of Rs 5 lakh per family per year for secondary and tertiary care hospitalization to over 12 crore poor and vulnerable families.",
+    "description_hi": "12 करोड़ से अधिक गरीब और कमज़ोर परिवारों को माध्यमिक और तृतीयक देखभाल अस्पताल में भर्ती के लिए प्रति परिवार प्रति वर्ष ₹5 लाख का स्वास्थ्य बीमा कवरेज प्रदान करती है।",
+    "eligibility": [
+      "Families listed in SECC 2011 database",
+      "No cap on family size or age",
+      "Covers pre and post hospitalization expenses",
+      "Available at government and empaneled private hospitals"
+    ],
+    "eligibility_hi": [
+      "SECC 2011 डेटाबेस में सूचीबद्ध परिवार",
+      "परिवार के आकार या उम्र पर कोई सीमा नहीं",
+      "अस्पताल में भर्ती से पहले और बाद के खर्चे शामिल",
+      "सरकारी और पैनल में शामिल निजी अस्पतालों में उपलब्ध"
+    ],
+    "documents_required": [
+      "Aadhaar card or Aadhaar enrollment slip",
+      "Ration card",
+      "Any government-issued ID",
+      "Mobile number"
+    ],
+    "documents_required_hi": [
+      "आधार कार्ड या आधार नामांकन पर्ची",
+      "राशन कार्ड",
+      "कोई भी सरकारी पहचान पत्र",
+      "मोबाइल नंबर"
+    ],
+    "application_steps": [
+      "Check eligibility at mera.pmjay.gov.in",
+      "Visit nearest Ayushman Bharat Kendra or CSC center",
+      "Carry Aadhaar and ration card",
+      "Complete verification process",
+      "Receive Ayushman card (e-card)"
+    ],
+    "application_steps_hi": [
+      "mera.pmjay.gov.in पर पात्रता जांचें",
+      "निकटतम आयुष्मान भारत केंद्र या CSC केंद्र पर जाएं",
+      "आधार और राशन कार्ड साथ ले जाएं",
+      "सत्यापन प्रक्रिया पूरी करें",
+      "आयुष्मान कार्ड (ई-कार्ड) प्राप्त करें"
+    ],
+    "benefit_amount": "₹5,00,000 per family per year",
+    "ministry": "Ministry of Health & Family Welfare",
+    "website": "https://pmjay.gov.in",
+    "keywords": ["health", "hospital", "insurance", "medical", "treatment", "स्वास्थ्य", "अस्पताल", "बीमा", "इलाज"]
+  },
+  {
+    "scheme_id": "pmay",
+    "name": "Pradhan Mantri Awas Yojana (PMAY)",
+    "name_hi": "प्रधानमंत्री आवास योजना",
+    "category": "housing",
+    "description": "Provides affordable housing to urban and rural poor with interest subsidy on home loans, making home ownership accessible to economically weaker sections.",
+    "description_hi": "शहरी और ग्रामीण गरीबों को होम लोन पर ब्याज सब्सिडी के साथ किफायती आवास प्रदान करती है, जिससे आर्थिक रूप से कमज़ोर वर्गों के लिए घर का मालिकाना हक सुलभ हो।",
+    "eligibility": [
+      "Annual household income up to ₹18 lakh (varies by category)",
+      "EWS: Income up to ₹3 lakh",
+      "LIG: Income ₹3-6 lakh",
+      "MIG-I: Income ₹6-12 lakh",
+      "MIG-II: Income ₹12-18 lakh",
+      "Should not own a pucca house"
+    ],
+    "eligibility_hi": [
+      "वार्षिक घरेलू आय ₹18 लाख तक (श्रेणी के अनुसार भिन्न)",
+      "EWS: आय ₹3 लाख तक",
+      "LIG: आय ₹3-6 लाख",
+      "MIG-I: आय ₹6-12 लाख",
+      "MIG-II: आय ₹12-18 लाख",
+      "पक्का घर नहीं होना चाहिए"
+    ],
+    "documents_required": [
+      "Aadhaar card",
+      "Income certificate",
+      "Property documents",
+      "Bank account details",
+      "Passport-size photographs"
+    ],
+    "documents_required_hi": [
+      "आधार कार्ड",
+      "आय प्रमाण पत्र",
+      "संपत्ति दस्तावेज",
+      "बैंक खाता विवरण",
+      "पासपोर्ट साइज फोटो"
+    ],
+    "application_steps": [
+      "Visit pmaymis.gov.in",
+      "Click 'Citizen Assessment' and select category",
+      "Enter Aadhaar number for verification",
+      "Fill in application form with personal and income details",
+      "Submit and download acknowledgment"
+    ],
+    "application_steps_hi": [
+      "pmaymis.gov.in पर जाएं",
+      "'नागरिक मूल्यांकन' पर क्लिक करें और श्रेणी चुनें",
+      "सत्यापन के लिए आधार नंबर दर्ज करें",
+      "व्यक्तिगत और आय विवरण के साथ आवेदन पत्र भरें",
+      "सबमिट करें और पावती डाउनलोड करें"
+    ],
+    "benefit_amount": "Interest subsidy of 3-6.5% on home loans",
+    "ministry": "Ministry of Housing & Urban Affairs",
+    "website": "https://pmaymis.gov.in",
+    "keywords": ["house", "home", "housing", "loan", "subsidy", "awas", "घर", "आवास", "मकान", "लोन"]
+  },
+  {
+    "scheme_id": "skill-india",
+    "name": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+    "name_hi": "प्रधानमंत्री कौशल विकास योजना",
+    "category": "employment",
+    "description": "India's largest skill certification scheme that provides free skill training and certification to youth to increase employability and earn a better livelihood.",
+    "description_hi": "भारत की सबसे बड़ी कौशल प्रमाणन योजना जो युवाओं को रोजगार क्षमता बढ़ाने और बेहतर आजीविका कमाने के लिए मुफ्त कौशल प्रशिक्षण और प्रमाणन प्रदान करती है।",
+    "eligibility": [
+      "Indian nationals aged 15-45 years",
+      "Class 10th or 12th pass (varies by course)",
+      "No prior formal certification required for most courses",
+      "Aadhaar card mandatory"
+    ],
+    "eligibility_hi": [
+      "15-45 वर्ष के भारतीय नागरिक",
+      "10वीं या 12वीं पास (पाठ्यक्रम के अनुसार)",
+      "अधिकांश पाठ्यक्रमों के लिए पूर्व औपचारिक प्रमाणन आवश्यक नहीं",
+      "आधार कार्ड अनिवार्य"
+    ],
+    "documents_required": [
+      "Aadhaar card",
+      "Educational certificates",
+      "Bank account details",
+      "Passport-size photographs"
+    ],
+    "documents_required_hi": [
+      "आधार कार्ड",
+      "शैक्षिक प्रमाण पत्र",
+      "बैंक खाता विवरण",
+      "पासपोर्ट साइज फोटो"
+    ],
+    "application_steps": [
+      "Visit pmkvyofficial.org",
+      "Find a training center near you",
+      "Register with your Aadhaar and personal details",
+      "Attend training sessions (150-300 hours)",
+      "Take the assessment and receive certification"
+    ],
+    "application_steps_hi": [
+      "pmkvyofficial.org पर जाएं",
+      "अपने पास एक प्रशिक्षण केंद्र खोजें",
+      "आधार और व्यक्तिगत विवरण से पंजीकरण करें",
+      "प्रशिक्षण सत्रों में भाग लें (150-300 घंटे)",
+      "मूल्यांकन दें और प्रमाणन प्राप्त करें"
+    ],
+    "benefit_amount": "Free training + certification + ₹8,000 reward on completion",
+    "ministry": "Ministry of Skill Development & Entrepreneurship",
+    "website": "https://pmkvyofficial.org",
+    "keywords": ["skill", "training", "job", "employment", "youth", "kaushal", "कौशल", "प्रशिक्षण", "नौकरी", "रोजगार"]
+  },
+  {
+    "scheme_id": "mudra-loan",
+    "name": "Pradhan Mantri MUDRA Yojana",
+    "name_hi": "प्रधानमंत्री मुद्रा योजना",
+    "category": "finance",
+    "description": "Provides loans up to Rs 10 lakh to micro and small enterprises for income-generating activities. Loans available under three categories: Shishu (up to ₹50,000), Kishore (₹50,000-5 lakh), and Tarun (₹5-10 lakh).",
+    "description_hi": "आय-अर्जक गतिविधियों के लिए सूक्ष्म और लघु उद्यमों को ₹10 लाख तक के ऋण प्रदान करती है। तीन श्रेणियों में ऋण: शिशु (₹50,000 तक), किशोर (₹50,000-5 लाख), और तरुण (₹5-10 लाख)।",
+    "eligibility": [
+      "Any Indian citizen with a business plan",
+      "Non-farm income generating activities",
+      "Manufacturing, trading, or service sector",
+      "No collateral required for loans up to ₹10 lakh"
+    ],
+    "eligibility_hi": [
+      "व्यापार योजना वाला कोई भी भारतीय नागरिक",
+      "गैर-कृषि आय अर्जक गतिविधियां",
+      "विनिर्माण, व्यापार या सेवा क्षेत्र",
+      "₹10 लाख तक के ऋण के लिए कोई जमानत आवश्यक नहीं"
+    ],
+    "documents_required": [
+      "Identity proof (Aadhaar/Voter ID/Passport)",
+      "Address proof",
+      "Business plan or project report",
+      "Photographs",
+      "Category certificate (SC/ST/OBC if applicable)"
+    ],
+    "documents_required_hi": [
+      "पहचान प्रमाण (आधार/वोटर आईडी/पासपोर्ट)",
+      "पता प्रमाण",
+      "व्यापार योजना या परियोजना रिपोर्ट",
+      "फोटोग्राफ",
+      "श्रेणी प्रमाण पत्र (SC/ST/OBC यदि लागू हो)"
+    ],
+    "application_steps": [
+      "Visit nearest bank, NBFC, or MFI",
+      "Request MUDRA loan application form",
+      "Submit filled form with required documents",
+      "Bank evaluates business plan",
+      "Loan sanctioned and disbursed to account"
+    ],
+    "application_steps_hi": [
+      "निकटतम बैंक, NBFC, या MFI पर जाएं",
+      "मुद्रा ऋण आवेदन पत्र का अनुरोध करें",
+      "आवश्यक दस्तावेजों के साथ भरा हुआ फॉर्म जमा करें",
+      "बैंक व्यापार योजना का मूल्यांकन करता है",
+      "ऋण स्वीकृत और खाते में वितरित"
+    ],
+    "benefit_amount": "Loans from ₹50,000 to ₹10,00,000",
+    "ministry": "Ministry of Finance",
+    "website": "https://www.mudra.org.in",
+    "keywords": ["loan", "business", "mudra", "enterprise", "startup", "ऋण", "व्यापार", "लोन", "उद्यम"]
+  },
+  {
+    "scheme_id": "ujjwala",
+    "name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+    "name_hi": "प्रधानमंत्री उज्ज्वला योजना",
+    "category": "social",
+    "description": "Provides free LPG connections to women from BPL (Below Poverty Line) families to replace unclean cooking fuels with clean LPG gas.",
+    "description_hi": "BPL (गरीबी रेखा से नीचे) परिवारों की महिलाओं को अशुद्ध खाना पकाने के ईंधन को स्वच्छ LPG गैस से बदलने के लिए मुफ्त LPG कनेक्शन प्रदान करती है।",
+    "eligibility": [
+      "Women from BPL households",
+      "Age 18 years or above",
+      "No existing LPG connection in the household",
+      "Name in SECC-2011 list"
+    ],
+    "eligibility_hi": [
+      "BPL परिवारों की महिलाएं",
+      "आयु 18 वर्ष या अधिक",
+      "घर में मौजूदा LPG कनेक्शन नहीं",
+      "SECC-2011 सूची में नाम"
+    ],
+    "documents_required": [
+      "BPL card / BPL list certificate",
+      "Aadhaar card",
+      "Bank account passbook",
+      "Passport-size photograph"
+    ],
+    "documents_required_hi": [
+      "BPL कार्ड / BPL सूची प्रमाण पत्र",
+      "आधार कार्ड",
+      "बैंक खाता पासबुक",
+      "पासपोर्ट साइज फोटो"
+    ],
+    "application_steps": [
+      "Visit nearest LPG distributor",
+      "Fill the PMUY application form",
+      "Submit with required documents",
+      "Verification by distributor",
+      "Receive free LPG connection and first refill"
+    ],
+    "application_steps_hi": [
+      "निकटतम LPG वितरक पर जाएं",
+      "PMUY आवेदन पत्र भरें",
+      "आवश्यक दस्तावेजों के साथ जमा करें",
+      "वितरक द्वारा सत्यापन",
+      "मुफ्त LPG कनेक्शन और पहली रिफिल प्राप्त करें"
+    ],
+    "benefit_amount": "Free LPG connection (₹1,600 subsidy)",
+    "ministry": "Ministry of Petroleum & Natural Gas",
+    "website": "https://www.pmujjwalayojana.com",
+    "keywords": ["gas", "LPG", "cooking", "ujjwala", "cylinder", "गैस", "सिलेंडर", "रसोई"]
+  },
+  {
+    "scheme_id": "sukanya-samriddhi",
+    "name": "Sukanya Samriddhi Yojana",
+    "name_hi": "सुकन्या समृद्धि योजना",
+    "category": "women",
+    "description": "A savings scheme for the girl child that offers high interest rates and tax benefits. Parents can open an account for their daughter below 10 years of age.",
+    "description_hi": "बालिकाओं के लिए एक बचत योजना जो उच्च ब्याज दरें और कर लाभ प्रदान करती है। माता-पिता अपनी 10 वर्ष से कम उम्र की बेटी के लिए खाता खोल सकते हैं।",
+    "eligibility": [
+      "Girl child below 10 years of age",
+      "Only 2 accounts per family (one per girl child)",
+      "Parents/legal guardian can open the account",
+      "Indian resident"
+    ],
+    "eligibility_hi": [
+      "10 वर्ष से कम उम्र की बालिका",
+      "प्रति परिवार केवल 2 खाते (प्रति बालिका एक)",
+      "माता-पिता/कानूनी अभिभावक खाता खोल सकते हैं",
+      "भारतीय निवासी"
+    ],
+    "documents_required": [
+      "Birth certificate of girl child",
+      "Identity proof of parent/guardian",
+      "Address proof",
+      "Photographs"
+    ],
+    "documents_required_hi": [
+      "बालिका का जन्म प्रमाण पत्र",
+      "माता-पिता/अभिभावक का पहचान प्रमाण",
+      "पता प्रमाण",
+      "फोटोग्राफ"
+    ],
+    "application_steps": [
+      "Visit any post office or authorized bank",
+      "Fill the Sukanya Samriddhi account opening form",
+      "Submit documents and minimum deposit of ₹250",
+      "Receive passbook for the account",
+      "Deposit annually (min ₹250, max ₹1.5 lakh)"
+    ],
+    "application_steps_hi": [
+      "किसी भी डाकघर या अधिकृत बैंक पर जाएं",
+      "सुकन्या समृद्धि खाता खोलने का फॉर्म भरें",
+      "दस्तावेज और न्यूनतम ₹250 जमा करें",
+      "खाते की पासबुक प्राप्त करें",
+      "वार्षिक जमा करें (न्यूनतम ₹250, अधिकतम ₹1.5 लाख)"
+    ],
+    "benefit_amount": "8.2% annual interest rate + tax benefits under 80C",
+    "ministry": "Ministry of Finance",
+    "website": "https://www.india.gov.in/sukanya-samriddhi-yojna",
+    "keywords": ["girl", "daughter", "savings", "sukanya", "बेटी", "बचत", "बालिका", "सुकन्या"]
+  },
+  {
+    "scheme_id": "pm-scholarship",
+    "name": "Prime Minister's Scholarship Scheme",
+    "name_hi": "प्रधानमंत्री छात्रवृत्ति योजना",
+    "category": "education",
+    "description": "Provides scholarships to dependent wards of ex-servicemen, ex-coast guard personnel, and police/RPF personnel who died in action, for professional and technical education.",
+    "description_hi": "कार्रवाई में शहीद हुए पूर्व सैनिकों, पूर्व तटरक्षक कर्मियों, और पुलिस/RPF कर्मियों के आश्रित वार्डों को पेशेवर और तकनीकी शिक्षा के लिए छात्रवृत्ति प्रदान करती है।",
+    "eligibility": [
+      "Wards of ex-servicemen/ex-coast guard",
+      "Wards of police/RPF killed in action",
+      "Pursuing professional degree courses",
+      "Minimum 60% marks in qualifying exam"
+    ],
+    "eligibility_hi": [
+      "पूर्व सैनिकों/पूर्व तटरक्षक के वार्ड",
+      "कार्रवाई में शहीद पुलिस/RPF के वार्ड",
+      "पेशेवर डिग्री पाठ्यक्रम कर रहे हों",
+      "योग्यता परीक्षा में न्यूनतम 60% अंक"
+    ],
+    "documents_required": [
+      "Ex-servicemen identity card",
+      "Educational certificates",
+      "Bank account details",
+      "Aadhaar card",
+      "Course admission proof"
+    ],
+    "documents_required_hi": [
+      "पूर्व सैनिक पहचान पत्र",
+      "शैक्षिक प्रमाण पत्र",
+      "बैंक खाता विवरण",
+      "आधार कार्ड",
+      "पाठ्यक्रम प्रवेश प्रमाण"
+    ],
+    "application_steps": [
+      "Visit ksb.gov.in (Kendriya Sainik Board)",
+      "Register and create an account",
+      "Fill in the scholarship application form",
+      "Upload required documents",
+      "Submit before deadline (usually October-November)"
+    ],
+    "application_steps_hi": [
+      "ksb.gov.in (केंद्रीय सैनिक बोर्ड) पर जाएं",
+      "पंजीकरण करें और खाता बनाएं",
+      "छात्रवृत्ति आवेदन पत्र भरें",
+      "आवश्यक दस्तावेज अपलोड करें",
+      "समय सीमा से पहले जमा करें (आमतौर पर अक्टूबर-नवंबर)"
+    ],
+    "benefit_amount": "₹30,000/year (boys) to ₹36,000/year (girls)",
+    "ministry": "Ministry of Defence",
+    "website": "https://ksb.gov.in",
+    "keywords": ["scholarship", "education", "student", "study", "college", "छात्रवृत्ति", "शिक्षा", "पढ़ाई", "कॉलेज"]
+  },
+  {
+    "scheme_id": "jandhan",
+    "name": "Pradhan Mantri Jan Dhan Yojana",
+    "name_hi": "प्रधानमंत्री जन धन योजना",
+    "category": "finance",
+    "description": "Financial inclusion program providing zero-balance bank accounts with RuPay debit card, accidental insurance cover of ₹2 lakh, and overdraft facility up to ₹10,000.",
+    "description_hi": "RuPay डेबिट कार्ड, ₹2 लाख का दुर्घटना बीमा कवर, और ₹10,000 तक की ओवरड्राफ्ट सुविधा के साथ शून्य-शेष बैंक खाते प्रदान करने वाला वित्तीय समावेशन कार्यक्रम।",
+    "eligibility": [
+      "Any Indian citizen aged 10 years or above",
+      "No existing bank account",
+      "No minimum balance required"
+    ],
+    "eligibility_hi": [
+      "10 वर्ष या उससे अधिक आयु का कोई भी भारतीय नागरिक",
+      "कोई मौजूदा बैंक खाता नहीं",
+      "कोई न्यूनतम शेष आवश्यक नहीं"
+    ],
+    "documents_required": [
+      "Aadhaar card (or Aadhaar enrollment slip)",
+      "If no Aadhaar: any government ID + address proof",
+      "Passport-size photographs"
+    ],
+    "documents_required_hi": [
+      "आधार कार्ड (या आधार नामांकन पर्ची)",
+      "आधार नहीं होने पर: कोई भी सरकारी आईडी + पता प्रमाण",
+      "पासपोर्ट साइज फोटो"
+    ],
+    "application_steps": [
+      "Visit nearest bank branch or banking correspondent",
+      "Fill the Jan Dhan account opening form",
+      "Submit Aadhaar or other ID documents",
+      "Receive RuPay debit card and passbook",
+      "Activate mobile banking if needed"
+    ],
+    "application_steps_hi": [
+      "निकटतम बैंक शाखा या बैंकिंग संवाददाता पर जाएं",
+      "जन धन खाता खोलने का फॉर्म भरें",
+      "आधार या अन्य आईडी दस्तावेज जमा करें",
+      "RuPay डेबिट कार्ड और पासबुक प्राप्त करें",
+      "आवश्यकता होने पर मोबाइल बैंकिंग सक्रिय करें"
+    ],
+    "benefit_amount": "Zero-balance account + ₹2 lakh insurance + ₹10,000 overdraft",
+    "ministry": "Ministry of Finance",
+    "website": "https://pmjdy.gov.in",
+    "keywords": ["bank", "account", "jan dhan", "financial", "debit card", "बैंक", "खाता", "जन धन"]
+  },
+  {
+    "scheme_id": "national-scholarship",
+    "name": "National Scholarship Portal (NSP)",
+    "name_hi": "राष्ट्रीय छात्रवृत्ति पोर्टल",
+    "category": "education",
+    "description": "A one-stop portal for various Central and State Government scholarships for students from Class 1 to PhD level, covering pre-matric, post-matric, and merit-based scholarships.",
+    "description_hi": "कक्षा 1 से PhD स्तर तक के छात्रों के लिए विभिन्न केंद्र और राज्य सरकार की छात्रवृत्तियों के लिए एक-स्टॉप पोर्टल, प्री-मैट्रिक, पोस्ट-मैट्रिक और मेरिट-आधारित छात्रवृत्तियां शामिल।",
+    "eligibility": [
+      "Indian students from Class 1 to PhD",
+      "Family income criteria varies by scholarship",
+      "SC/ST/OBC/Minority/General categories",
+      "Enrolled in recognized educational institutions"
+    ],
+    "eligibility_hi": [
+      "कक्षा 1 से PhD तक के भारतीय छात्र",
+      "पारिवारिक आय मानदंड छात्रवृत्ति के अनुसार भिन्न",
+      "SC/ST/OBC/अल्पसंख्यक/सामान्य श्रेणियां",
+      "मान्यता प्राप्त शैक्षणिक संस्थानों में नामांकित"
+    ],
+    "documents_required": [
+      "Aadhaar card",
+      "Income certificate",
+      "Caste certificate (if applicable)",
+      "Previous year marksheet",
+      "Bank account details",
+      "Institution verification"
+    ],
+    "documents_required_hi": [
+      "आधार कार्ड",
+      "आय प्रमाण पत्र",
+      "जाति प्रमाण पत्र (यदि लागू हो)",
+      "पिछले वर्ष की मार्कशीट",
+      "बैंक खाता विवरण",
+      "संस्थान सत्यापन"
+    ],
+    "application_steps": [
+      "Visit scholarships.gov.in",
+      "Register with mobile and email",
+      "Search and select applicable scholarship",
+      "Fill application and upload documents",
+      "Submit before deadline",
+      "Track status online"
+    ],
+    "application_steps_hi": [
+      "scholarships.gov.in पर जाएं",
+      "मोबाइल और ईमेल से पंजीकरण करें",
+      "लागू छात्रवृत्ति खोजें और चुनें",
+      "आवेदन भरें और दस्तावेज अपलोड करें",
+      "समय सीमा से पहले जमा करें",
+      "ऑनलाइन स्थिति ट्रैक करें"
+    ],
+    "benefit_amount": "₹1,000 to ₹75,000+ per year depending on scholarship",
+    "ministry": "Ministry of Electronics & IT",
+    "website": "https://scholarships.gov.in",
+    "keywords": ["scholarship", "education", "student", "study", "school", "college", "छात्रवृत्ति", "शिक्षा", "स्कूल"]
+  },
+  {
+    "scheme_id": "atal-pension",
+    "name": "Atal Pension Yojana (APY)",
+    "name_hi": "अटल पेंशन योजना",
+    "category": "social",
+    "description": "A government-backed pension scheme for workers in the unorganized sector that guarantees a minimum monthly pension of ₹1,000 to ₹5,000 after the age of 60.",
+    "description_hi": "असंगठित क्षेत्र के श्रमिकों के लिए सरकार समर्थित पेंशन योजना जो 60 वर्ष की आयु के बाद ₹1,000 से ₹5,000 प्रति माह की न्यूनतम पेंशन की गारंटी देती है।",
+    "eligibility": [
+      "Indian citizens aged 18-40 years",
+      "Must have a bank account",
+      "Not a member of any statutory social security scheme",
+      "Linked to Aadhaar"
+    ],
+    "eligibility_hi": [
+      "18-40 वर्ष के भारतीय नागरिक",
+      "बैंक खाता होना चाहिए",
+      "किसी वैधानिक सामाजिक सुरक्षा योजना का सदस्य नहीं",
+      "आधार से जुड़ा हुआ"
+    ],
+    "documents_required": [
+      "Aadhaar card",
+      "Bank account with active mobile number",
+      "Nomination details"
+    ],
+    "documents_required_hi": [
+      "आधार कार्ड",
+      "सक्रिय मोबाइल नंबर वाला बैंक खाता",
+      "नामांकन विवरण"
+    ],
+    "application_steps": [
+      "Visit your bank branch",
+      "Fill the APY registration form",
+      "Choose pension amount (₹1,000 to ₹5,000/month)",
+      "Set up auto-debit from bank account",
+      "Receive PRAN (Permanent Retirement Account Number)"
+    ],
+    "application_steps_hi": [
+      "अपनी बैंक शाखा पर जाएं",
+      "APY पंजीकरण फॉर्म भरें",
+      "पेंशन राशि चुनें (₹1,000 से ₹5,000/माह)",
+      "बैंक खाते से ऑटो-डेबिट सेट करें",
+      "PRAN (स्थायी सेवानिवृत्ति खाता संख्या) प्राप्त करें"
+    ],
+    "benefit_amount": "₹1,000 to ₹5,000 monthly pension after age 60",
+    "ministry": "Ministry of Finance (PFRDA)",
+    "website": "https://www.npscra.nsdl.co.in/scheme-details.php",
+    "keywords": ["pension", "retirement", "old age", "atal", "पेंशन", "सेवानिवृत्ति", "बुढ़ापा"]
+  },
+  {
+    "scheme_id": "standup-india",
+    "name": "Stand-Up India Scheme",
+    "name_hi": "स्टैंड-अप इंडिया योजना",
+    "category": "finance",
+    "description": "Facilitates bank loans between ₹10 lakh and ₹1 crore to at least one SC/ST borrower and one woman borrower per bank branch for setting up a greenfield enterprise.",
+    "description_hi": "ग्रीनफील्ड उद्यम स्थापित करने के लिए प्रति बैंक शाखा कम से कम एक SC/ST उधारकर्ता और एक महिला उधारकर्ता को ₹10 लाख से ₹1 करोड़ तक के बैंक ऋण की सुविधा।",
+    "eligibility": [
+      "SC/ST entrepreneurs OR women entrepreneurs",
+      "Age 18 years or above",
+      "Setting up a new (greenfield) enterprise",
+      "No prior default to any bank"
+    ],
+    "eligibility_hi": [
+      "SC/ST उद्यमी या महिला उद्यमी",
+      "आयु 18 वर्ष या अधिक",
+      "नया (ग्रीनफील्ड) उद्यम स्थापित कर रहे हों",
+      "किसी बैंक में पूर्व डिफॉल्ट नहीं"
+    ],
+    "documents_required": [
+      "Identity proof (SC/ST certificate or gender proof)",
+      "Address proof",
+      "Business project report",
+      "Bank statements",
+      "Passport-size photographs"
+    ],
+    "documents_required_hi": [
+      "पहचान प्रमाण (SC/ST प्रमाण पत्र या लिंग प्रमाण)",
+      "पता प्रमाण",
+      "व्यापार परियोजना रिपोर्ट",
+      "बैंक स्टेटमेंट",
+      "पासपोर्ट साइज फोटो"
+    ],
+    "application_steps": [
+      "Visit standupmitra.in portal",
+      "Register and fill application",
+      "Select bank branch and loan amount",
+      "Submit business project report",
+      "Bank processes and disburses loan"
+    ],
+    "application_steps_hi": [
+      "standupmitra.in पोर्टल पर जाएं",
+      "पंजीकरण करें और आवेदन भरें",
+      "बैंक शाखा और ऋण राशि चुनें",
+      "व्यापार परियोजना रिपोर्ट जमा करें",
+      "बैंक प्रक्रिया करता है और ऋण वितरित करता है"
+    ],
+    "benefit_amount": "Loans from ₹10 lakh to ₹1 crore",
+    "ministry": "Ministry of Finance",
+    "website": "https://www.standupmitra.in",
+    "keywords": ["loan", "SC", "ST", "women", "business", "enterprise", "startup", "ऋण", "महिला", "व्यापार", "उद्यम"]
+  },
+  {
+    "scheme_id": "fasal-bima",
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "name_hi": "प्रधानमंत्री फसल बीमा योजना",
+    "category": "agriculture",
+    "description": "Crop insurance scheme that provides financial support to farmers suffering crop loss due to natural calamities, pests, and diseases at very low premium rates.",
+    "description_hi": "फसल बीमा योजना जो प्राकृतिक आपदाओं, कीटों और रोगों के कारण फसल नुकसान झेलने वाले किसानों को बहुत कम प्रीमियम दरों पर वित्तीय सहायता प्रदान करती है।",
+    "eligibility": [
+      "All farmers (loanee and non-loanee)",
+      "Sharecroppers and tenant farmers included",
+      "Crop should be notified in the area"
+    ],
+    "eligibility_hi": [
+      "सभी किसान (ऋणी और गैर-ऋणी)",
+      "बटाईदार और किरायेदार किसान शामिल",
+      "फसल क्षेत्र में अधिसूचित होनी चाहिए"
+    ],
+    "documents_required": [
+      "Aadhaar card",
+      "Land records / tenancy agreement",
+      "Sowing certificate",
+      "Bank account details",
+      "Declaration form"
+    ],
+    "documents_required_hi": [
+      "आधार कार्ड",
+      "भूमि रिकॉर्ड / किरायेदारी समझौता",
+      "बुवाई प्रमाण पत्र",
+      "बैंक खाता विवरण",
+      "घोषणा पत्र"
+    ],
+    "application_steps": [
+      "Visit pmfby.gov.in or nearest CSC center",
+      "Register and select your crops",
+      "Pay the premium (1.5-5% of sum insured)",
+      "Get insurance policy document",
+      "File claim in case of crop damage"
+    ],
+    "application_steps_hi": [
+      "pmfby.gov.in या निकटतम CSC केंद्र पर जाएं",
+      "पंजीकरण करें और अपनी फसलें चुनें",
+      "प्रीमियम भुगतान करें (बीमित राशि का 1.5-5%)",
+      "बीमा पॉलिसी दस्तावेज प्राप्त करें",
+      "फसल क्षति होने पर दावा दायर करें"
+    ],
+    "benefit_amount": "Full sum insured (varies by crop and area)",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "website": "https://pmfby.gov.in",
+    "keywords": ["crop", "insurance", "farming", "fasal", "bima", "agriculture", "फसल", "बीमा", "खेती", "किसान"]
+  },
+  {
+    "scheme_id": "dbt-agriculture",
+    "name": "Kisan Credit Card (KCC)",
+    "name_hi": "किसान क्रेडिट कार्ड",
+    "category": "agriculture",
+    "description": "Provides affordable credit to farmers for their agricultural needs including crop production, post-harvest expenses, maintenance of farm assets, and allied activities.",
+    "description_hi": "किसानों को फसल उत्पादन, कटाई के बाद के खर्च, कृषि संपत्तियों के रखरखाव और संबद्ध गतिविधियों सहित कृषि आवश्यकताओं के लिए किफायती ऋण प्रदान करता है।",
+    "eligibility": [
+      "Farmers — individual or joint borrowers",
+      "Owner cultivators",
+      "Tenant farmers, sharecroppers",
+      "Self-help groups or joint liability groups"
+    ],
+    "eligibility_hi": [
+      "किसान — व्यक्तिगत या संयुक्त उधारकर्ता",
+      "स्वामी कृषक",
+      "किरायेदार किसान, बटाईदार",
+      "स्वयं सहायता समूह या संयुक्त देयता समूह"
+    ],
+    "documents_required": [
+      "Aadhaar card",
+      "Land records / ownership proof",
+      "Passport-size photographs",
+      "Application form from bank"
+    ],
+    "documents_required_hi": [
+      "आधार कार्ड",
+      "भूमि रिकॉर्ड / स्वामित्व प्रमाण",
+      "पासपोर्ट साइज फोटो",
+      "बैंक से आवेदन पत्र"
+    ],
+    "application_steps": [
+      "Visit nearest bank branch (nationalized/cooperative)",
+      "Request KCC application form",
+      "Fill and submit with land documents",
+      "Bank verifies and sanctions credit limit",
+      "Receive KCC card for withdrawals"
+    ],
+    "application_steps_hi": [
+      "निकटतम बैंक शाखा (राष्ट्रीयकृत/सहकारी) पर जाएं",
+      "KCC आवेदन पत्र का अनुरोध करें",
+      "भूमि दस्तावेजों के साथ भरें और जमा करें",
+      "बैंक सत्यापित करता है और क्रेडिट सीमा स्वीकृत करता है",
+      "निकासी के लिए KCC कार्ड प्राप्त करें"
+    ],
+    "benefit_amount": "Credit up to ₹3 lakh at 4% interest (with subvention)",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "website": "https://www.pmkisan.gov.in",
+    "keywords": ["credit", "card", "kisan", "loan", "farm", "agriculture", "क्रेडिट", "कार्ड", "किसान", "ऋण", "खेती"]
+  },
+  {
+    "scheme_id": "pm-svanidhi",
+    "name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+    "name_hi": "पीएम स्ट्रीट वेंडर आत्मनिर्भर निधि",
+    "category": "employment",
+    "description": "Provides affordable working capital loan up to ₹50,000 to street vendors to resume their livelihoods affected by COVID-19 pandemic.",
+    "description_hi": "COVID-19 महामारी से प्रभावित अपनी आजीविका फिर से शुरू करने के लिए स्ट्रीट वेंडरों को ₹50,000 तक का किफायती कार्यशील पूंजी ऋण प्रदान करती है।",
+    "eligibility": [
+      "Street vendors with valid certificate of vending",
+      "Vendors identified in survey by ULB",
+      "Vendors with letter of recommendation from ULB/TVC"
+    ],
+    "eligibility_hi": [
+      "वैध वेंडिंग प्रमाण पत्र वाले स्ट्रीट वेंडर",
+      "ULB द्वारा सर्वेक्षण में पहचाने गए वेंडर",
+      "ULB/TVC से सिफारिश पत्र वाले वेंडर"
+    ],
+    "documents_required": [
+      "Certificate of vending / ID card",
+      "Aadhaar card",
+      "Bank account details",
+      "Passport-size photograph"
+    ],
+    "documents_required_hi": [
+      "वेंडिंग प्रमाण पत्र / आईडी कार्ड",
+      "आधार कार्ड",
+      "बैंक खाता विवरण",
+      "पासपोर्ट साइज फोटो"
+    ],
+    "application_steps": [
+      "Visit pmsvanidhi.mohua.gov.in",
+      "Register with mobile number",
+      "Apply for the working capital loan",
+      "Bank verifies and sanctions loan",
+      "Repay on time for enhanced loan eligibility"
+    ],
+    "application_steps_hi": [
+      "pmsvanidhi.mohua.gov.in पर जाएं",
+      "मोबाइल नंबर से पंजीकरण करें",
+      "कार्यशील पूंजी ऋण के लिए आवेदन करें",
+      "बैंक सत्यापित करता है और ऋण स्वीकृत करता है",
+      "बढ़ी हुई ऋण पात्रता के लिए समय पर चुकाएं"
+    ],
+    "benefit_amount": "₹10,000 (1st loan), ₹20,000 (2nd), ₹50,000 (3rd) + 7% interest subsidy",
+    "ministry": "Ministry of Housing & Urban Affairs",
+    "website": "https://pmsvanidhi.mohua.gov.in",
+    "keywords": ["vendor", "street", "loan", "business", "small", "rehri", "ठेला", "दुकान", "व्यापार", "वेंडर"]
+  },
+  {
+    "scheme_id": "matru-vandana",
+    "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+    "name_hi": "प्रधानमंत्री मातृ वंदना योजना",
+    "category": "women",
+    "description": "Provides cash incentive of ₹5,000 (in 3 installments) to pregnant and lactating women for their first live birth to improve health and nutrition.",
+    "description_hi": "गर्भवती और स्तनपान कराने वाली महिलाओं को उनके पहले जीवित जन्म के लिए स्वास्थ्य और पोषण सुधारने हेतु ₹5,000 (3 किस्तों में) का नकद प्रोत्साहन प्रदान करती है।",
+    "eligibility": [
+      "Pregnant and lactating women (first live birth)",
+      "Age 19 years or above",
+      "Not employed in Central/State Government or PSU"
+    ],
+    "eligibility_hi": [
+      "गर्भवती और स्तनपान कराने वाली महिलाएं (पहला जीवित जन्म)",
+      "आयु 19 वर्ष या अधिक",
+      "केंद्र/राज्य सरकार या PSU में कार्यरत नहीं"
+    ],
+    "documents_required": [
+      "Aadhaar card",
+      "Bank/Post Office account passbook",
+      "MCP card (Mother Child Protection)",
+      "Identity proof of husband"
+    ],
+    "documents_required_hi": [
+      "आधार कार्ड",
+      "बैंक/डाकघर खाता पासबुक",
+      "MCP कार्ड (मातृ शिशु सुरक्षा)",
+      "पति का पहचान प्रमाण"
+    ],
+    "application_steps": [
+      "Visit nearest Anganwadi center or health facility",
+      "Register for PMMVY",
+      "Fill Form 1-A (within 150 days of pregnancy)",
+      "Fill Form 1-B (after 6 months of pregnancy)",
+      "Fill Form 1-C (after child birth and vaccinations)"
+    ],
+    "application_steps_hi": [
+      "निकटतम आंगनवाड़ी केंद्र या स्वास्थ्य सुविधा पर जाएं",
+      "PMMVY के लिए पंजीकरण करें",
+      "फॉर्म 1-A भरें (गर्भावस्था के 150 दिनों के भीतर)",
+      "फॉर्म 1-B भरें (गर्भावस्था के 6 महीने बाद)",
+      "फॉर्म 1-C भरें (बच्चे के जन्म और टीकाकरण के बाद)"
+    ],
+    "benefit_amount": "₹5,000 in 3 installments (₹1,000 + ₹2,000 + ₹2,000)",
+    "ministry": "Ministry of Women & Child Development",
+    "website": "https://pmmvy.wcd.gov.in",
+    "keywords": ["pregnant", "mother", "maternity", "child", "women", "matru", "गर्भवती", "माँ", "महिला", "बच्चा"]
+  },
+  {
+    "scheme_id": "pmegp",
+    "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "name_hi": "प्रधानमंत्री रोजगार सृजन कार्यक्रम",
+    "category": "employment",
+    "description": "Provides financial assistance for setting up new micro-enterprises with subsidy up to 35% of the project cost in rural areas and 25% in urban areas.",
+    "description_hi": "ग्रामीण क्षेत्रों में परियोजना लागत के 35% तक और शहरी क्षेत्रों में 25% तक सब्सिडी के साथ नए सूक्ष्म-उद्यम स्थापित करने के लिए वित्तीय सहायता प्रदान करता है।",
+    "eligibility": [
+      "Any individual above 18 years",
+      "Minimum 8th pass for projects above ₹10 lakh (manufacturing) or ₹5 lakh (service)",
+      "New projects only (not for expansion)",
+      "Only one subsidy per project"
+    ],
+    "eligibility_hi": [
+      "18 वर्ष से अधिक आयु का कोई भी व्यक्ति",
+      "₹10 लाख (विनिर्माण) या ₹5 लाख (सेवा) से अधिक की परियोजनाओं के लिए न्यूनतम 8वीं पास",
+      "केवल नई परियोजनाएं (विस्तार के लिए नहीं)",
+      "प्रति परियोजना केवल एक सब्सिडी"
+    ],
+    "documents_required": [
+      "Aadhaar card",
+      "Educational certificates",
+      "Project report",
+      "Caste certificate (if applicable)",
+      "EDP training certificate"
+    ],
+    "documents_required_hi": [
+      "आधार कार्ड",
+      "शैक्षिक प्रमाण पत्र",
+      "परियोजना रिपोर्ट",
+      "जाति प्रमाण पत्र (यदि लागू हो)",
+      "EDP प्रशिक्षण प्रमाण पत्र"
+    ],
+    "application_steps": [
+      "Visit kviconline.gov.in",
+      "Register and submit online application",
+      "Prepare detailed project report",
+      "Application reviewed by KVIC/KVIB/DIC",
+      "Bank sanctions loan",
+      "Complete EDP training",
+      "Subsidy released to bank"
+    ],
+    "application_steps_hi": [
+      "kviconline.gov.in पर जाएं",
+      "पंजीकरण करें और ऑनलाइन आवेदन जमा करें",
+      "विस्तृत परियोजना रिपोर्ट तैयार करें",
+      "KVIC/KVIB/DIC द्वारा आवेदन की समीक्षा",
+      "बैंक ऋण स्वीकृत करता है",
+      "EDP प्रशिक्षण पूरा करें",
+      "सब्सिडी बैंक को जारी"
+    ],
+    "benefit_amount": "25-35% subsidy on project cost (max ₹50 lakh manufacturing, ₹20 lakh service)",
+    "ministry": "Ministry of MSME (via KVIC)",
+    "website": "https://www.kviconline.gov.in",
+    "keywords": ["employment", "enterprise", "business", "startup", "subsidy", "PMEGP", "रोजगार", "उद्यम", "व्यापार", "सब्सिडी"]
+  },
+  {
+    "scheme_id": "mid-day-meal",
+    "name": "PM POSHAN (Mid-Day Meal) Scheme",
+    "name_hi": "पीएम पोषण (मिड-डे मील) योजना",
+    "category": "education",
+    "description": "Provides free cooked meals to children in government and aided schools from Class 1-8 to improve nutrition, increase enrollment, and reduce dropout rates.",
+    "description_hi": "पोषण में सुधार, नामांकन बढ़ाने और ड्रॉपआउट दर कम करने के लिए सरकारी और सहायता प्राप्त स्कूलों में कक्षा 1-8 के बच्चों को मुफ्त पका हुआ भोजन प्रदान करती है।",
+    "eligibility": [
+      "Students of Class 1 to 8",
+      "Enrolled in Government or Government-aided schools",
+      "Automatically provided — no separate application needed"
+    ],
+    "eligibility_hi": [
+      "कक्षा 1 से 8 के छात्र",
+      "सरकारी या सरकारी सहायता प्राप्त स्कूलों में नामांकित",
+      "स्वचालित रूप से प्रदान — कोई अलग आवेदन आवश्यक नहीं"
+    ],
+    "documents_required": [
+      "School enrollment (automatic eligibility)",
+      "No separate documents needed"
+    ],
+    "documents_required_hi": [
+      "स्कूल में नामांकन (स्वचालित पात्रता)",
+      "कोई अलग दस्तावेज आवश्यक नहीं"
+    ],
+    "application_steps": [
+      "Enroll child in a government or aided school",
+      "Meals are automatically provided during school days",
+      "Contact school administration for any issues"
+    ],
+    "application_steps_hi": [
+      "बच्चे को सरकारी या सहायता प्राप्त स्कूल में नामांकित करें",
+      "स्कूल के दिनों में भोजन स्वचालित रूप से प्रदान किया जाता है",
+      "किसी भी समस्या के लिए स्कूल प्रशासन से संपर्क करें"
+    ],
+    "benefit_amount": "Free nutritious meal every school day",
+    "ministry": "Ministry of Education",
+    "website": "https://pmposhan.education.gov.in",
+    "keywords": ["meal", "food", "school", "children", "nutrition", "education", "भोजन", "खाना", "स्कूल", "बच्चे", "पोषण"]
+  },
+  {
+    "scheme_id": "digital-india",
+    "name": "Digital India — Common Service Centers (CSC)",
+    "name_hi": "डिजिटल इंडिया — कॉमन सर्विस सेंटर",
+    "category": "social",
+    "description": "A network of access points (CSCs) in every village that delivers government services, digital literacy, and e-services to rural citizens at their doorstep.",
+    "description_hi": "हर गांव में एक्सेस प्वाइंट (CSC) का नेटवर्क जो ग्रामीण नागरिकों को उनके दरवाजे पर सरकारी सेवाएं, डिजिटल साक्षरता और ई-सेवाएं प्रदान करता है।",
+    "eligibility": [
+      "Any citizen can access CSC services",
+      "No eligibility criteria for using CSC",
+      "Services available for all age groups"
+    ],
+    "eligibility_hi": [
+      "कोई भी नागरिक CSC सेवाओं का उपयोग कर सकता है",
+      "CSC उपयोग के लिए कोई पात्रता मानदंड नहीं",
+      "सभी आयु वर्ग के लिए सेवाएं उपलब्ध"
+    ],
+    "documents_required": [
+      "Aadhaar card (for most services)",
+      "Relevant documents depending on the service needed"
+    ],
+    "documents_required_hi": [
+      "आधार कार्ड (अधिकांश सेवाओं के लिए)",
+      "आवश्यक सेवा के अनुसार प्रासंगिक दस्तावेज"
+    ],
+    "application_steps": [
+      "Find nearest CSC at locator.csccloud.in",
+      "Visit the CSC center",
+      "Request the service you need",
+      "CSC operator assists with online application",
+      "Pay nominal service charge if applicable"
+    ],
+    "application_steps_hi": [
+      "locator.csccloud.in पर निकटतम CSC खोजें",
+      "CSC केंद्र पर जाएं",
+      "अपनी आवश्यक सेवा का अनुरोध करें",
+      "CSC ऑपरेटर ऑनलाइन आवेदन में सहायता करता है",
+      "यदि लागू हो तो मामूली सेवा शुल्क का भुगतान करें"
+    ],
+    "benefit_amount": "Access to 400+ government services at village level",
+    "ministry": "Ministry of Electronics & Information Technology",
+    "website": "https://csc.gov.in",
+    "keywords": ["digital", "CSC", "online", "service", "village", "internet", "डिजिटल", "सेवा", "गांव", "इंटरनेट"]
+  },
+  {
+    "scheme_id": "nrega",
+    "name": "Mahatma Gandhi NREGA",
+    "name_hi": "महात्मा गांधी नरेगा",
+    "category": "employment",
+    "description": "Guarantees 100 days of wage employment per year to every rural household whose adult members volunteer to do unskilled manual work at minimum wage rates.",
+    "description_hi": "प्रत्येक ग्रामीण परिवार जिसके वयस्क सदस्य न्यूनतम मजदूरी दर पर अकुशल शारीरिक कार्य करने के लिए स्वेच्छा से तैयार हैं, को प्रति वर्ष 100 दिनों के वेतन रोजगार की गारंटी।",
+    "eligibility": [
+      "Adult members of any rural household",
+      "Willing to do unskilled manual work",
+      "Must apply for a job card at Gram Panchayat"
+    ],
+    "eligibility_hi": [
+      "किसी भी ग्रामीण परिवार के वयस्क सदस्य",
+      "अकुशल शारीरिक कार्य करने को तैयार",
+      "ग्राम पंचायत में जॉब कार्ड के लिए आवेदन करना होगा"
+    ],
+    "documents_required": [
+      "Photograph",
+      "Address proof",
+      "Age proof",
+      "Application to Gram Panchayat"
+    ],
+    "documents_required_hi": [
+      "फोटोग्राफ",
+      "पता प्रमाण",
+      "आयु प्रमाण",
+      "ग्राम पंचायत को आवेदन"
+    ],
+    "application_steps": [
+      "Visit your Gram Panchayat office",
+      "Apply for NREGA job card",
+      "Receive job card within 15 days",
+      "Apply for work when needed",
+      "Work must be provided within 15 days of application"
+    ],
+    "application_steps_hi": [
+      "अपने ग्राम पंचायत कार्यालय पर जाएं",
+      "नरेगा जॉब कार्ड के लिए आवेदन करें",
+      "15 दिनों के भीतर जॉब कार्ड प्राप्त करें",
+      "जरूरत पड़ने पर काम के लिए आवेदन करें",
+      "आवेदन के 15 दिनों के भीतर काम प्रदान किया जाना चाहिए"
+    ],
+    "benefit_amount": "100 days guaranteed employment (wage ₹200-300/day varies by state)",
+    "ministry": "Ministry of Rural Development",
+    "website": "https://nrega.nic.in",
+    "keywords": ["employment", "job", "work", "rural", "wage", "NREGA", "MGNREGA", "रोजगार", "नौकरी", "काम", "मजदूरी", "नरेगा"]
+  }
+]

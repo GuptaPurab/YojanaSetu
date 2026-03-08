@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="45" fill="#FF9933" opacity="0.9"/>
+  <text x="50" y="38" text-anchor="middle" fill="white" font-size="14" font-weight="bold" font-family="sans-serif">YOJANA</text>
+  <text x="50" y="58" text-anchor="middle" fill="white" font-size="18" font-weight="bold" font-family="sans-serif">सेतु</text>
+  <path d="M25 68 Q50 58 75 68" stroke="white" stroke-width="2" fill="none"/>
+</svg>

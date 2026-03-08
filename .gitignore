@@ -1,0 +1,40 @@
+# Environment and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!backend/.env.example
+!frontend/.env.production.example
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dependencies and local runtime folders
+frontend/node_modules/
+backend/venv/
+backend/.venv/
+
+# Build and deployment artifacts
+frontend/dist/
+backend/package/
+*.zip
+
+# Temporary/debug output files
+curl_out.txt
+frontend/curl_v.txt
+frontend/js_output.txt
+frontend/test_out/
+frontend/test_unzip/
+frontend/test_zip/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

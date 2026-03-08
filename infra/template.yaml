@@ -1,0 +1,112 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: YOJANASETU — Voice-first AI Government Services Assistant
+
+Globals:
+  Function:
+    Timeout: 30
+    MemorySize: 256
+    Runtime: python3.12
+    Environment:
+      Variables:
+        USE_AWS: 'true'
+        AWS_REGION_NAME: !Ref AWS::Region
+        BEDROCK_MODEL_ID: 'anthropic.claude-3-sonnet-20240229-v1:0'
+        DYNAMODB_SCHEMES_TABLE: !Ref SchemesTable
+        DYNAMODB_CONVERSATIONS_TABLE: !Ref ConversationsTable
+        S3_KNOWLEDGE_BUCKET: !Ref KnowledgeBucket
+
+Resources:
+  # ---- API Gateway ----
+  YojanaSetuApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: prod
+      Cors:
+        AllowMethods: "'GET,POST,OPTIONS'"
+        AllowHeaders: "'Content-Type'"
+        AllowOrigin: "'*'"
+
+  # ---- Lambda Function (Backend) ----
+  BackendFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: main.handler
+      CodeUri: ../backend/
+      Description: YOJANASETU API backend
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref SchemesTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref ConversationsTable
+        - S3ReadPolicy:
+            BucketName: !Ref KnowledgeBucket
+        - Statement:
+            - Effect: Allow
+              Action:
+                - bedrock:InvokeModel
+              Resource: '*'
+        - Statement:
+            - Effect: Allow
+              Action:
+                - polly:SynthesizeSpeech
+              Resource: '*'
+      Events:
+        ApiCatchAll:
+          Type: Api
+          Properties:
+            RestApiId: !Ref YojanaSetuApi
+            Path: /api/{proxy+}
+            Method: ANY
+
+  # ---- DynamoDB: Schemes ----
+  SchemesTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: yojanasetu-schemes
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: scheme_id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: scheme_id
+          KeyType: HASH
+
+  # ---- DynamoDB: Conversations ----
+  ConversationsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: yojanasetu-conversations
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: conversation_id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: conversation_id
+          KeyType: HASH
+      TimeToLiveSpecification:
+        AttributeName: ttl
+        Enabled: true
+
+  # ---- S3: Knowledge Base ----
+  KnowledgeBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub 'yojanasetu-kb-${AWS::AccountId}'
+
+Outputs:
+  ApiUrl:
+    Description: API Gateway endpoint URL
+    Value: !Sub 'https://${YojanaSetuApi}.execute-api.${AWS::Region}.amazonaws.com/prod/'
+  BackendFunctionArn:
+    Description: Backend Lambda Function ARN
+    Value: !GetAtt BackendFunction.Arn
+  SchemesTableName:
+    Description: DynamoDB Schemes table
+    Value: !Ref SchemesTable
+  ConversationsTableName:
+    Description: DynamoDB Conversations table
+    Value: !Ref ConversationsTable
+  KnowledgeBucketName:
+    Description: S3 Knowledge Base bucket
+    Value: !Ref KnowledgeBucket
